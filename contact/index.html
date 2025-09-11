@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - MDPC</title>
+  <link rel="shortcut icon" href="../MDPC2.png" type="image/x-icon">
+  <style>
+    body { margin:0; font-family:"Segoe UI", Roboto, Arial, sans-serif; background:#fff; color:#202124; }
+    header { display:flex; justify-content:space-between; align-items:center; padding:1rem 2rem; border-bottom:1px solid #eee; position:sticky; top:0; background:#fff; z-index:1000; }
+    header img { height:100px; }
+    nav a { text-decoration:none; color:#5f6368; margin-left:1.5rem; font-size:0.95rem; }
+    nav a:hover { color:#1a73e8; }
+    main { padding:4rem 2rem; max-width:600px; margin:auto; }
+    h1 { text-align:center; font-size:2.5rem; margin-bottom:1rem; }
+    p { text-align:center; color:#5f6368; font-size:1.1rem; margin-bottom:2rem; }
+    form label { font-weight:500; display:block; margin-top:1rem; }
+    form input, form textarea { width:100%; padding:10px; margin-top:5px; border:1px solid #ccc; border-radius:6px; font-size:1rem; }
+    form button { padding:10px 20px; margin-top:1rem; background:#1a73e8; color:#fff; border:none; border-radius:5px; cursor:pointer; }
+    form button:hover { background:#1557b0; }
+    footer { border-top:1px solid #eee; text-align:center; padding:1.5rem; font-size:0.9rem; color:#5f6368; margin-top:2rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="../index.html"><img src="../logo.png" alt="MDPC Logo"></a>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../about/index.html">About</a>
+      <a href="../services/index.html">Services</a>
+      <a href="index.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+    <p>Have questions or feedback? Reach out to MDPC below!</p>
+
+    <form action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    © 2025 MDPC — All rights reserved.
+  </footer>
+
+</body>
+</html>
