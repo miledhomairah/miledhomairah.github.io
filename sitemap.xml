@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Home page -->
   <url>
     <loc>https://miled-dev.xyz/</loc>
-    <lastmod>2026-02-22</lastmod>
   </url>
 
-  <!-- About page -->
   <url>
-    <loc>https://miled-dev.xyz/about</loc>
-    <lastmod>2026-02-22</lastmod>
+    <loc>https://miled-dev.xyz/about/</loc>
   </url>
 
-  <!-- Contact page -->
   <url>
-    <loc>https://miled-dev.xyz/contact</loc>
-    <lastmod>2026-02-22</lastmod>
+    <loc>https://miled-dev.xyz/contact/</loc>
   </url>
 
-  <!-- Milogamez page -->
   <url>
-    <loc>https://miled-dev.xyz/milogamez</loc>
-    <lastmod>2026-02-22</lastmod>
+    <loc>https://miled-dev.xyz/milogamez/</loc>
   </url>
 
-  <!-- Services page -->
   <url>
-    <loc>https://miled-dev.xyz/services</loc>
-    <lastmod>2026-02-22</lastmod>
+    <loc>https://miled-dev.xyz/services/</loc>
   </url>
 
 </urlset>
